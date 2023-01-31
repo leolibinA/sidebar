@@ -1,0 +1,30 @@
+html,body
+{
+    margin: 0;
+
+}
+.sidebar
+{
+    background:linear-gradient(45deg,yellow,rgb(29, 19, 19)) ;
+    float: left;
+    width: 250px;
+}
+.sidebar a
+{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: rgb(2, 10, 36);
+  font-size: 40px;
+  padding: 10px 30px ;
+}
+.sidebar a:hover
+{
+    background: linear-gradient(80deg,rgb(31, 25, 15),green);
+    border-radius: 50px;
+    box-shadow: 0 0 5px blueviolet;
+    
+}
+.sidebar img{
+    border-radius: 150px;
+}
